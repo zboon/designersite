@@ -1,0 +1,47 @@
+
+body {
+  border: none;
+  margin: 0;
+}
+.top-container {
+  background-color: #6f7a8a;
+  height: 40em;
+width: 100%;
+opacity: .5;
+position: relative;
+top: 50px;
+}
+.header {
+  background-color: #f1f1f1;
+  height: 50px;
+  position: fixed;
+top: 0;
+ width: 100%;
+ border: 3px solid #73AD21;
+ z-index: 1;
+}
+
+.header-right {
+  float: right;
+}
+
+.middle-container {
+  background-color: blue;
+  margin: 0;
+}
+.bottom-container {
+  background-color: green;
+  margin: 0;
+  height: 500px;
+}
+.footer {
+  background-color: black;
+margin-top: 0;
+}
+.seyhim {
+  height: 40em;
+  margin-left: 50%;
+
+
+  position: absolute;
+}
