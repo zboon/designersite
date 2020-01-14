@@ -7,6 +7,13 @@ body {
   margin: 0;
 }
 
+.page-title {
+text-align: center;
+padding-top: 150px;
+font-size: 70px;
+font-family:  fantasy;
+opacity: 50%;
+}
 .header {
   background: rgb(111, 122, 138);
   background: linear-gradient(180deg, rgba(111, 122, 138, 1) 0%, rgba(63, 79, 110, 1) 74%, rgba(52, 69, 103, 1) 100%, rgba(111, 122, 138, 1) 100%);
@@ -15,7 +22,7 @@ body {
   top: 0;
   width: 100%;
   border: none;
-  z-index: 1;
+  z-index: 10;
 }
 
 /* Add a black background color to the top navigation */
@@ -65,68 +72,152 @@ body {
 }
 
 .top-container {
-  background: rgb(111, 122, 138);
-  background: linear-gradient(0deg, rgba(111, 122, 138, 1) 0%, rgba(63, 79, 110, 1) 74%, rgba(52, 69, 103, 1) 100%, rgba(111, 122, 138, 1) 100%);
-  padding-top: 6%;
-  height: 60em;
+  margin-top: 8em;
   position: relative;
-  background:  url("../images/Shaykh.jpeg");
-    background-repeat: no-repeat;
+  background: url("../images/Shaykh.jpeg");
+  background-repeat: no-repeat;
   background-size: 100%;
+  height: 900px;
 }
+
 .background-layer {
-  background: linear-gradient(0deg, rgba(111, 122, 138, 1) 0%, rgba(63, 79, 110, 1) 74%, rgba(52, 69, 103, 1) 100%, rgba(111, 122, 138, 1) 100%);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .7;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .middle-container {
-  background: rgb(47, 65, 79);
-  background: linear-gradient(0deg, rgba(47, 65, 79, 1) 1%, rgba(31, 135, 104, 1) 26%, rgba(24, 149, 87, 1) 48%, rgba(47, 65, 79, 1) 92%);
-  height: 60em;
-  margin-top: -2em;
-}
-
-.bottom-container {
-  background-color: green;
-  margin: 0;
-  height: 500px;
-}
-
-.footer {
-  background-color: black;
-  margin-top: 0;
+  position: relative;
 }
 
 .seyhim {
   display: block;
-  height: 20em;
+  height: 28em;
   opacity: .9;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  top: 90px;
+  margin-top: 50px;
 }
 
 .frame {
   display: block;
-  height: 22em;
+  height: 30em;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  bottom: 250px;
+  margin-top: -29em;
+}
+
+.yunusemre {
+  border-radius: 90%;
+  position: relative;
+  opacity: .2;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.mevlana {
+  border-radius: 90%;
+  position: relative;
+  opacity: .2;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-image: url(../images/star.png);
+  text-align: center;
+  background-size: 50px;
+  background-repeat: repeat-x;
+  background-color:
+    #305475;
+  height: 100px;
+  position: relative;
+}
+
+.name {
+  color:
+    #ceccca;
+}
+
+.profile {
+  height: 70%;
+}
+
+.contact-me {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.footer-link {
+  position: relative;
+  padding-top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #66BFBF;
+}
+
+h2 {
+  color: #09a761;
+  text-align: center;
+  font-size: 50px;
+}
+
+h3 {
+  text-align: center;
+  color: #448fee;
+  font-size: 30px;
+}
+
+p {
+  color: #175738;
+  text-align: center;
+}
+
+a {
+  color: #66BFBF;
 }
 
 #Rumiquote {
   position: relative;
+  top: 30%;
   margin-left: auto;
   margin-right: auto;
-  top: -200px;
-  width: 800px;
+  width: 40%;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 10px;
+  border-color: #1e6d12;
+  border-radius: 14px;
+  border-width: 3px;
+  border-style: inset;
+}
+
+#fixedbutton {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 55px;
 }
